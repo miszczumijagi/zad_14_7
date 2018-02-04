@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#42f4c5,#317c84);
+}
+
+#app {
+    width: 60%;
+}
+
+button {
+    height: 40px;
+    padding: 0 30px;
+    color: white;
+    background: linear-gradient(#4286f4,#317c84);
+}
+
+.contactForm {
+    padding: 10px;
+    margin: 10px;
+    background-color: #e3e6ea;
+}
+
+.contactForm > input {
+    height: 30px;
+    width: 40%;
+    margin: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.contactForm > input[type='email'] {
+    width: 65%;
+}
+
+.contactsList {
+    padding: 0px;
+}
+
+.contactItem {
+    position: relative;
+    padding: 10px 20px 20px 150px;
+    margin: 10px;
+    background-color: #e3e6ea;
+}
+
+.contactImage {
+    position: absolute;
+    height: 80%;
+    left: 15px;
+    transform: translateY(-50%);
+    top: 50%;
+} 
